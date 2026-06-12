@@ -25,14 +25,14 @@
     <section id="sobre">
         <h2>Sobre mim</h2>
 
-        <img src="images.jfif"
-            alt="foto de perfil de Vanessa" title="foto de perfil Vanessa"> 
-           
+        <img src="images.jfif" alt="foto de perfil de Vanessa" title="foto de perfil Vanessa">
+
 
         <article>
 
             <p>
-                Olá, meu nome é Vanessa! É um prazer estar aprendendo com o SC-TEC. Estou com muito orgulho do meu primeiro site!
+                Olá, meu nome é Vanessa! É um prazer estar aprendendo com o SC-TEC. Estou com muito orgulho do meu
+                primeiro site!
             </p>
 
         </article>
@@ -56,7 +56,7 @@
         <h2>Projetos</h2>
 
         <article>
-          <h3>Portfólio</h3>
+            <h3>Portfólio</h3>
 
             <p>
                 Este foi o primeiro site que desenvolvi, estudando Front End.
@@ -66,19 +66,89 @@
 
     </section>
 
+    <section id="habilidades">
+
+        <h2> Habilidades e tecnologias</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Tecnologia</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz construir estruturas de páginas web semanticas e responsivas</td>
+                </tr>
+
+                  <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiencia com flexbox, grid e animações CSS</td>
+                </tr>
+
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>Básico</td>
+                    <td>Desenvolvimento de scripts do lado do cliente para interações</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
     <footer>
         <p> Direitos Reservados a VMP.</p>
-        
+
         <section id="contato">
 
             <h2>Contato</h2>
 
             <p>Tem um projeto em mente? Entre em contato!</p>
 
-            <adress>
-                Email: <a href="mailto: titanachronos@gmail.com">titanac*****@gmail.com</a> <br>
-                Telefone: <a href="tel:+55 49989029482">+55 4998902****</a>
-            </adress>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">Nome: E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone" required> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+                
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+
+                <br>
+                    
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber minha newslatter? Fique por dentro!</label>
+            
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+               
+            </form>
+
 
         </section>
 
